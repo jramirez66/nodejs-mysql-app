@@ -1,0 +1,27 @@
+<div class="container p-4">
+    <div class="row">
+        <div class="col-md-4">
+            <div class="card">
+                <div class="card-body">
+                    <form action="/links/add" method="POST">
+                        <div class="mb-3">
+                            <input type="text" class="form-control" name="titulo" placeholder="Title" autofocus>
+                        </div>
+                        <div class="mb-3">
+                            <input type="url" name="url" class="form-control" placeholder="URL">
+                        </div>
+                        <div class="mb-3">
+                            <textarea name="description" rows="2" class="form-control"
+                                placeholder="Description"></textarea>
+                        </div>
+                        <div class="mb-3 d-grid gap-2">
+                            <button class="btn btn-success">
+                                Save
+                            </button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
